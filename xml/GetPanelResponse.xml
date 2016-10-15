@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetPanelResponse xmlns="http://Schneider-Electric.com/">
+    <datetime>yy-mm-ddThr:min:sec+/-offset</datetime>
+    <panel>
+        <id>0</id>
+        <nametag>Panel Object 1</nametag>
+        <defined>YES</defined>
+        <active>YES</active>
+        <length>24</length>
+        <width>2</width>
+        <posnumberstart>4</posnumberstart>
+        <firstbrkrnumber>1</firstbrkrnumber>
+        <brkrseqnumber>2</brkrseqnumber>
+        <panelcomp>
+            <position1>EMPTY</position1>
+            <position2>EMPTY</position2>
+            <position3>EMPTY</position3>
+            <position4>1 POLE POWER LINK BREAKER</position4>
+            <position5>1 POLE POWER LINK BREAKER</position5>
+            <position6>1 POLE POWER LINK BREAKER</position6>
+            <position7>1 POLE POWER LINK BREAKER</position7>
+            <position8>1 POLE POWER LINK BREAKER</position8>
+            <position9>1 POLE POWER LINK BREAKER</position9>
+            <position10>1 POLE POWER LINK BREAKER</position10>
+            <position11>1 POLE POWER LINK BREAKER</position11>
+            <position12>1 POLE POWER LINK BREAKER</position12>
+            <position13>1 POLE POWER LINK BREAKER</position13>
+            <position14>1 POLE POWER LINK BREAKER</position14>
+            <position15>1 POLE POWER LINK BREAKER</position15>
+            <position16>1 POLE POWER LINK BREAKER</position16>
+            <position17>1 POLE POWER LINK BREAKER</position17>
+            <position18>1 POLE POWER LINK BREAKER</position18>
+            <position19>1 POLE POWER LINK BREAKER</position19>
+            <position20>2 POLE POWERLINK BREAKER</position20>
+            <position21>2 POLE POWERLINK BREAKER NO MOTOR</position21>
+            <position22>3 POLE POWERLINK BREAKER NO MOTOR</position22>
+            <position23>3 POLE POWERLINK BREAKER</position23>
+            <position24>3 POLE POWERLINK BREAKER NO MOTOR</position24>
+            <position25>EMPTY</position25>
+            <position26>EMPTY</position26>
+            <position27>EMPTY</position27>
+            <position28>EMPTY</position28>
+            <position29>EMPTY</position29>
+            <position30>EMPTY</position30>
+            <position31>EMPTY</position31>
+            <position32>EMPTY</position32>
+            <position33>EMPTY</position33>
+            <position34>EMPTY</position34>
+            <position35>EMPTY</position35>
+            <position36>EMPTY</position36>
+            <position37>EMPTY</position37>
+            <position38>EMPTY</position38>
+            <position39>EMPTY</position39>
+            <position40>EMPTY</position40>
+            <position41>EMPTY</position41>
+            <position42>EMPTY</position42>
+            <position43>EMPTY</position43>
+            <position44>EMPTY</position44>
+            <position45>EMPTY</position45>
+            <position46>EMPTY</position46>
+            <position47>EMPTY</position47>
+            <position48>EMPTY</position48>
+            <position49>EMPTY</position49>
+            <position50>EMPTY</position50>
+            <position51>EMPTY</position51>
+            <position52>1 POLE POWER LINK BREAKER</position52>
+            <position53>1 POLE POWER LINK BREAKER</position53>
+            <position54>1 POLE POWER LINK BREAKER</position54>
+            <position55>1 POLE POWER LINK BREAKER</position55>
+            <position56>1 POLE POWER LINK BREAKER</position56>
+            <position57>1 POLE POWER LINK BREAKER</position57>
+            <position58>1 POLE POWER LINK BREAKER</position58>
+            <position59>1 POLE POWER LINK BREAKER</position59>
+            <position60>1 POLE POWER LINK BREAKER</position60>
+            <position61>1 POLE POWER LINK BREAKER</position61>
+            <position62>1 POLE POWER LINK BREAKER</position62>
+            <position63>1 POLE POWER LINK BREAKER</position63>
+            <position64>1 POLE POWER LINK BREAKER</position64>
+            <position65>1 POLE POWER LINK BREAKER</position65>
+            <position66>1 POLE POWER LINK BREAKER</position66>
+            <position67>1 POLE POWER LINK BREAKER</position67>
+            <position68>2 POLE POWERLINK BREAKER NO MOTOR</position68>
+            <position69>2 POLE POWERLINK BREAKER</position69>
+            <position70>3 POLE POWERLINK BREAKER NO MOTOR</position70>
+            <position71>3 POLE POWERLINK BREAKER</position71>
+            <position72>3 POLE POWERLINK BREAKER NO MOTOR</position72>
+            <position73>EMPTY</position73>
+            <position74>EMPTY</position74>
+            <position75>EMPTY</position75>
+            <position76>EMPTY</position76>
+            <position77>EMPTY</position77>
+            <position78>EMPTY</position78>
+            <position79>EMPTY</position79>
+            <position80>EMPTY</position80>
+            <position81>EMPTY</position81>
+            <position82>EMPTY</position82>
+            <position83>EMPTY</position83>
+            <position84>EMPTY</position84>
+            <position85>EMPTY</position85>
+            <position86>EMPTY</position86>
+            <position87>EMPTY</position87>
+            <position88>EMPTY</position88>
+            <position89>EMPTY</position89>
+            <position90>EMPTY</position90>
+            <position91>EMPTY</position91>
+            <position92>EMPTY</position92>
+            <position93>EMPTY</position93>
+            <position94>EMPTY</position94>
+            <position95>EMPTY</position95>
+            <position96>EMPTY</position96>
+        </panelcomp>
+        <busses>
+            <bus>
+                <id>1</id>
+                <model>24L</model>
+                <firmware>1.00</firmware>
+                <panelloc>LEFT</panelloc>
+                <position>4</position>
+                <busnonrep>NO</busnonrep>
+                <breakers>
+                    <breaker>
+                        <id>1</id>
+                        <nametag>Breaker Object 1</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>2</id>
+                        <nametag>Breaker Object 2</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>3</id>
+                        <nametag>Breaker Object 3</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>4</id>
+                        <nametag>Breaker Object 4</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>5</id>
+                        <nametag>Breaker Object 5</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>6</id>
+                        <nametag>Breaker Object 6</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>7</id>
+                        <nametag>Breaker Object 7</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>8</id>
+                        <nametag>Breaker Object 8</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>9</id>
+                        <nametag>Breaker Object 9</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>10</id>
+                        <nametag>Breaker Object 10</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>11</id>
+                        <nametag>Breaker Object 11</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>12</id>
+                        <nametag>Breaker Object 12</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>13</id>
+                        <nametag>Breaker Object 13</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>14</id>
+                        <nametag>Breaker Object 14</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>15</id>
+                        <nametag>Breaker Object 15</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>16</id>
+                        <nametag>Breaker Object 16</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>17</id>
+                        <nametag>Breaker Object 17</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>18</id>
+                        <nametag>Breaker Object 18</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>19</id>
+                        <nametag>Breaker Object 19</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>20</id>
+                        <nametag>Breaker Object 20</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>21</id>
+                        <nametag>Breaker Object 21</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                </breakers>
+            </bus>
+            <bus>
+                <id>2</id>
+                <model>24R</model>
+                <firmware>1.00</firmware>
+                <panelloc>Right</panelloc>
+                <position>4</position>
+                <busnonrep>NO</busnonrep>
+                <brkrnonrep>NO</brkrnonrep>
+                <breakers>
+                    <breaker>
+                        <id>22</id>
+                        <nametag>Breaker Object 22</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>23</id>
+                        <nametag>Breaker Object 23</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>24</id>
+                        <nametag>Breaker Object 24</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>25</id>
+                        <nametag>Breaker Object 25</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>26</id>
+                        <nametag>Breaker Object 26</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>27</id>
+                        <nametag>Breaker Object 27</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>28</id>
+                        <nametag>Breaker Object 28</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>29</id>
+                        <nametag>Breaker Object 29</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>30</id>
+                        <nametag>Breaker Object 30</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>31</id>
+                        <nametag>Breaker Object 31</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>32</id>
+                        <nametag>Breaker Object 32</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>33</id>
+                        <nametag>Breaker Object 33</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>34</id>
+                        <nametag>Breaker Object 34</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>35</id>
+                        <nametag>Breaker Object 35</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>36</id>
+                        <nametag>Breaker Object 36</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>37</id>
+                        <nametag>Breaker Object 37</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>38</id>
+                        <nametag>Breaker Object 38</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>39</id>
+                        <nametag>Breaker Object 39</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>40</id>
+                        <nametag>Breaker Object 40</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>41</id>
+                        <nametag>Breaker Object 41</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                    <breaker>
+                        <id>42</id>
+                        <nametag>Breaker Object 42</nametag>
+                        <eltype>NO</eltype>
+                        <blinktype>SINGLE</blinktype>
+                        <blinktimer>345</blinktimer>
+                        <ontime>1234</ontime>
+                        <state>ON</state>
+                        <strikecnt>2525</strikecnt>
+                        <brkrnonrep>NO</brkrnonrep>
+                    </breaker>
+                </breakers>
+            </bus>
+        </busses>
+    </panel>
+    <panel>
+        <id>0</id>
+        <nametag>Panel Object 2</nametag>
+        <defined>YES</defined>
+        <active>YES</active>
+        <length>24</length>
+        <width>2</width>
+        <posnumberstart>4</posnumberstart>
+        <firstbrkrnumber>1</firstbrkrnumber>
+        <brkrseqnumber>2</brkrseqnumber>
+        <panelcomp>
+            <position1>EMPTY</position1>
+            <position2>EMPTY</position2>
+            <position3>EMPTY</position3>
+            <position4>1 POLE POWER LINK BREAKER</position4>
+            <position5>1 POLE POWER LINK BREAKER</position5>
+            <position6>1 POLE POWER LINK BREAKER</position6>
+            <position7>1 POLE POWER LINK BREAKER</position7>
+            <position8>1 POLE POWER LINK BREAKER</position8>
+            <position9>1 POLE POWER LINK BREAKER</position9>
+            <position10>1 POLE POWER LINK BREAKER</position10>
+            <position11>1 POLE POWER LINK BREAKER</position11>
+            <position12>1 POLE POWER LINK BREAKER</position12>
+            <position13>1 POLE POWER LINK BREAKER</position13>
+            <position14>1 POLE POWER LINK BREAKER</position14>
+            <position15>1 POLE POWER LINK BREAKER</position15>
+            <position16>1 POLE POWER LINK BREAKER</position16>
+            <position17>1 POLE POWER LINK BREAKER</position17>
+            <position18>1 POLE POWER LINK BREAKER</position18>
+            <position19>1 POLE POWER LINK BREAKER</position19>
+            <position20>2 POLE POWERLINK BREAKER</position20>
+            <position21>2 POLE POWERLINK BREAKER NO MOTOR</position21>
+            <position22>3 POLE POWERLINK BREAKER NO MOTOR</position22>
+            <position23>3 POLE POWERLINK BREAKER</position23>
+            <position24>3 POLE POWERLINK BREAKER NO MOTOR</position24>
+            <position25>EMPTY</position25>
+            <position26>EMPTY</position26>
+            <position27>EMPTY</position27>
+            <position28>EMPTY</position28>
+            <position29>EMPTY</position29>
+            <position30>EMPTY</position30>
+            <position31>EMPTY</position31>
+            <position32>EMPTY</position32>
+            <position33>EMPTY</position33>
+            <position34>EMPTY</position34>
+            <position35>EMPTY</position35>
+            <position36>EMPTY</position36>
+            <position37>EMPTY</position37>
+            <position38>EMPTY</position38>
+            <position39>EMPTY</position39>
+            <position40>EMPTY</position40>
+            <position41>EMPTY</position41>
+            <position42>EMPTY</position42>
+            <position43>EMPTY</position43>
+            <position44>EMPTY</position44>
+            <position45>EMPTY</position45>
+            <position46>EMPTY</position46>
+            <position47>EMPTY</position47>
+            <position48>EMPTY</position48>
+            <position49>EMPTY</position49>
+            <position50>EMPTY</position50>
+            <position51>EMPTY</position51>
+            <position52>1 POLE POWER LINK BREAKER</position52>
+            <position53>1 POLE POWER LINK BREAKER</position53>
+            <position54>1 POLE POWER LINK BREAKER</position54>
+            <position55>1 POLE POWER LINK BREAKER</position55>
+            <position56>1 POLE POWER LINK BREAKER</position56>
+            <position57>1 POLE POWER LINK BREAKER</position57>
+            <position58>1 POLE POWER LINK BREAKER</position58>
+            <position59>1 POLE POWER LINK BREAKER</position59>
+            <position60>1 POLE POWER LINK BREAKER</position60>
+            <position61>1 POLE POWER LINK BREAKER</position61>
+            <position62>1 POLE POWER LINK BREAKER</position62>
+            <position63>1 POLE POWER LINK BREAKER</position63>
+            <position64>1 POLE POWER LINK BREAKER</position64>
+            <position65>1 POLE POWER LINK BREAKER</position65>
+            <position66>1 POLE POWER LINK BREAKER</position66>
+            <position67>1 POLE POWER LINK BREAKER</position67>
+            <position68>2 POLE POWERLINK BREAKER NO MOTOR</position68>
+            <position69>2 POLE POWERLINK BREAKER</position69>
+            <position70>3 POLE POWERLINK BREAKER NO MOTOR</position70>
+            <position71>3 POLE POWERLINK BREAKER</position71>
+            <position72>3 POLE POWERLINK BREAKER NO MOTOR</position72>
+            <position73>EMPTY</position73>
+            <position74>EMPTY</position74>
+            <position75>EMPTY</position75>
+            <position76>EMPTY</position76>
+            <position77>EMPTY</position77>
+            <position78>EMPTY</position78>
+            <position79>EMPTY</position79>
+            <position80>EMPTY</position80>
+            <position81>EMPTY</position81>
+            <position82>EMPTY</position82>
+            <position83>EMPTY</position83>
+            <position84>EMPTY</position84>
+            <position85>EMPTY</position85>
+            <position86>EMPTY</position86>
+            <position87>EMPTY</position87>
+            <position88>EMPTY</position88>
+            <position89>EMPTY</position89>
+            <position90>EMPTY</position90>
+            <position91>EMPTY</position91>
+            <position92>EMPTY</position92>
+            <position93>EMPTY</position93>
+            <position94>EMPTY</position94>
+            <position95>EMPTY</position95>
+            <position96>EMPTY</position96>
+        </panelcomp>
+        <busses>
+        </busses>
+    </panel>
+</GetPanelResponse>
