@@ -1,0 +1,12 @@
+{
+  "name": "JS_Sample",
+  "version": "1.0.0",
+  "description": "Javascript Sample",
+  "main": "index.js",
+  "repository": "https://github.com/wearingart/js_sample.git",
+  "author": "Brian Wilkins <brianwilkins@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bulma": "^0.7.1"
+  }
+}

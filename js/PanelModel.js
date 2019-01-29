@@ -20,7 +20,7 @@ function xmlToJson(xml) {
     // Create the return object
     var obj = {};
 
-    if (xml.nodeType == 1) { // element
+    if (xml.nodeType === 1) { // element
         // do attributes
         if (xml.attributes.length > 0) {
             obj["@attributes"] = {};
@@ -29,7 +29,7 @@ function xmlToJson(xml) {
                 obj["@attributes"][attribute.nodeName] = attribute.nodeValue;
             }
         }
-    } else if (xml.nodeType == 3) { // text
+    } else if (xml.nodeType === 3) { // text
         obj = xml.nodeValue;
     }
 
@@ -38,10 +38,10 @@ function xmlToJson(xml) {
         for(var i = 0; i < xml.childNodes.length; i++) {
             var item = xml.childNodes.item(i);
             var nodeName = item.nodeName;
-            if (typeof(obj[nodeName]) == "undefined") {
+            if (typeof(obj[nodeName]) === "undefined") {
                 obj[nodeName] = xmlToJson(item);
             } else {
-                if (typeof(obj[nodeName].push) == "undefined") {
+                if (typeof(obj[nodeName].push) === "undefined") {
                     var old = obj[nodeName];
                     obj[nodeName] = [];
                     obj[nodeName].push(old);
@@ -70,7 +70,6 @@ PanelModel.prototype = {
 function PanelView(model) {
     var pm = this;
     pm._model = model;
-
 }
 
 PanelView.prototype = {
@@ -80,7 +79,7 @@ PanelView.prototype = {
     },
     buildPanel : function(jsonData, panelID) {
         var panel = jsonData.GetPanelResponse.panel[panelID];
-        var leftJson, rightJson, breakerSequence, titleNametag;
+        var leftJson, rightJson, titleNametag;
         var leftBrkrs = [];
         var rightBrkrs = [];
 
@@ -89,7 +88,7 @@ PanelView.prototype = {
             var i = 0;
             leftJson = panel.busses.bus[i].breakers.breaker;
             rightJson = panel.busses.bus[i + 1].breakers.breaker;
-            breakerSequence = parseInt(panel.brkrseqnumber['#text']);
+            //breakerSequence = parseInt(panel.brkrseqnumber['#text']);
             console.log(leftJson);
 
             for (var j = 0; j < leftJson.length; j++) {
@@ -134,7 +133,7 @@ PanelController.prototype = {
 
 
 (function () {
-    if (typeof numID == 'undefined') {
+    if (typeof numID === 'undefined') {
         numID = 1;
     }
 
